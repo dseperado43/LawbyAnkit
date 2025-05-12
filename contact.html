@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Legal Consulting</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #00264d;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #00264d;
+    }
+    .contact-info, .contact-form {
+      background: #fff;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    footer {
+      background-color: #00264d;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .contact-form button {
+      background-color: #00264d;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .contact-form button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Us</h1>
+    <p>We are here to help with your legal needs.</p>
+  </header>
+
+  <section class="contact-info">
+    <h2>Get in Touch</h2>
+    <p>If you have any legal inquiries or need personalized advice, please reach out using the contact information below:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:mr.abhiram.pratap@gmail.com">mr.abhiram.pratap@gmail.com</a></li>
+      <li><strong>Phone:</strong> <a href="tel:+917903920807">+91-7903920807</a></li>
+      <li><strong>Registered and Operational Address:</strong> Civil Court Dhanbad, Jharkhand 826001</li>
+    </ul>
+  </section>
+
+  <section class="contact-form">
+    <h2>Send a Message</h2>
+    <form action="mailto:mr.abhiram.pratap@gmail.com" method="POST" enctype="text/plain">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send
